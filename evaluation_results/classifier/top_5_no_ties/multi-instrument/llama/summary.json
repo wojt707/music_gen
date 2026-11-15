@@ -1,0 +1,136 @@
+{
+  "conditioned": true,
+  "num_evaluated": 500,
+  "num_classes": 5,
+  "random_baseline_top1": 0.2,
+  "top1_accuracy": 0.652,
+  "top3_accuracy": 0.948,
+  "macro_f1": 0.649545647360614,
+  "weighted_f1": 0.649545647360614,
+  "macro_precision": 0.6919980534079873,
+  "macro_recall": 0.6519999999999999,
+  "mean_target_prob": 0.5811967849731445,
+  "mean_pred_confidence": 0.7270750999450684,
+  "mean_pred_entropy": 0.6947733163833618,
+  "kl_div_to_uniform": 0.06665688854007917,
+  "js_div_to_uniform": 0.017391859758059264,
+  "predicted_distribution": {
+    "classical": 0.204,
+    "country": 0.092,
+    "metal": 0.246,
+    "pop": 0.16,
+    "rock": 0.298
+  },
+  "predicted_counts": {
+    "classical": 102,
+    "country": 46,
+    "metal": 123,
+    "pop": 80,
+    "rock": 149
+  },
+  "per_genre": {
+    "classical": {
+      "genre": "classical",
+      "genre_id": 0,
+      "support": 100,
+      "predicted_count": 102,
+      "top1_accuracy": 1.0,
+      "top3_accuracy": 1.0,
+      "precision": 0.9803921568627451,
+      "recall": 1.0,
+      "f1": 0.99009900990099,
+      "mean_target_prob": 0.9592472910881042
+    },
+    "country": {
+      "genre": "country",
+      "genre_id": 1,
+      "support": 100,
+      "predicted_count": 46,
+      "top1_accuracy": 0.36,
+      "top3_accuracy": 0.75,
+      "precision": 0.782608695652174,
+      "recall": 0.36,
+      "f1": 0.4931506849315068,
+      "mean_target_prob": 0.34146130084991455
+    },
+    "metal": {
+      "genre": "metal",
+      "genre_id": 2,
+      "support": 100,
+      "predicted_count": 123,
+      "top1_accuracy": 0.77,
+      "top3_accuracy": 1.0,
+      "precision": 0.6260162601626016,
+      "recall": 0.77,
+      "f1": 0.6905829596412556,
+      "mean_target_prob": 0.6893669366836548
+    },
+    "pop": {
+      "genre": "pop",
+      "genre_id": 3,
+      "support": 100,
+      "predicted_count": 80,
+      "top1_accuracy": 0.54,
+      "top3_accuracy": 0.99,
+      "precision": 0.675,
+      "recall": 0.54,
+      "f1": 0.6000000000000001,
+      "mean_target_prob": 0.41897422075271606
+    },
+    "rock": {
+      "genre": "rock",
+      "genre_id": 4,
+      "support": 100,
+      "predicted_count": 149,
+      "top1_accuracy": 0.59,
+      "top3_accuracy": 1.0,
+      "precision": 0.3959731543624161,
+      "recall": 0.59,
+      "f1": 0.4738955823293172,
+      "mean_target_prob": 0.49693405628204346
+    }
+  },
+  "confusion_matrix": [
+    [
+      100,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      36,
+      4,
+      19,
+      39
+    ],
+    [
+      0,
+      0,
+      77,
+      0,
+      23
+    ],
+    [
+      0,
+      7,
+      11,
+      54,
+      28
+    ],
+    [
+      0,
+      3,
+      31,
+      7,
+      59
+    ]
+  ],
+  "dataset": "top_5_no_ties",
+  "split": "multi-instrument",
+  "model": "llama",
+  "total_files": 500,
+  "valid_files": 500,
+  "failed_files": 0
+}

@@ -1,0 +1,37 @@
+{
+  "conditioned": false,
+  "num_evaluated": 500,
+  "top1_accuracy": null,
+  "top3_accuracy": null,
+  "macro_f1": null,
+  "weighted_f1": null,
+  "macro_precision": null,
+  "macro_recall": null,
+  "mean_target_prob": null,
+  "mean_pred_confidence": 0.6009024977684021,
+  "mean_pred_entropy": 1.0555765628814697,
+  "kl_div_to_uniform": 0.7344290404563757,
+  "js_div_to_uniform": 0.21361882686360842,
+  "predicted_distribution": {
+    "classical": 0.552,
+    "country": 0.0,
+    "metal": 0.066,
+    "pop": 0.0,
+    "rock": 0.382
+  },
+  "predicted_counts": {
+    "classical": 276,
+    "country": 0,
+    "metal": 33,
+    "pop": 0,
+    "rock": 191
+  },
+  "per_genre": {},
+  "confusion_matrix": null,
+  "dataset": "top_5_no_ties",
+  "split": "piano",
+  "model": "moonbeam",
+  "total_files": 500,
+  "valid_files": 500,
+  "failed_files": 0
+}

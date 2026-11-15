@@ -1,0 +1,6 @@
+true_genre \ pred_genre,classical,country,metal,pop,rock
+classical,99,0,0,0,1
+country,0,39,4,13,44
+metal,0,0,76,0,24
+pop,5,6,13,49,27
+rock,0,0,39,5,56

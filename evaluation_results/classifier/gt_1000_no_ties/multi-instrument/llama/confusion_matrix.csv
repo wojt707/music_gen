@@ -1,0 +1,11 @@
+true_genre \ pred_genre,classical,country,folk,hip_hop,jazz,metal,pop,punk,rock,soul_rnb
+classical,99,0,0,0,1,0,0,0,0,0
+country,0,62,0,0,2,0,4,0,30,2
+folk,2,13,0,0,5,10,8,14,47,1
+hip_hop,2,6,0,0,2,24,20,19,27,0
+jazz,4,7,0,0,40,11,8,3,24,3
+metal,0,0,0,0,0,61,0,23,16,0
+pop,1,5,0,0,5,6,40,4,32,7
+punk,0,0,0,0,0,11,0,74,15,0
+rock,0,5,0,0,1,11,2,29,51,1
+soul_rnb,2,8,0,0,9,0,29,2,34,16
